@@ -3,7 +3,7 @@
 To install all python modules required
 pip install -r requirements.txt
 
-Change directory to \PriceTracker\tracker\tracker\spiders>
+Change directory to \tracker\spiders>
 
 scrapy crawl tracker_spider -o <filename>.<format>
 scrapy crawl tracker_spider -o items.json
@@ -19,5 +19,9 @@ eg:
 
 
 
-And check the result in the file mentioned above which will be crated in \PriceTracker\tracker\tracker\spiders> directory..
+And check the result in the file mentioned above which will be crated in \tracker\spiders> directory..
 
+# Output will look like 
+<div style:"margin:10em">
+<img src="images/output.PNG" alt="image">
+</div>
