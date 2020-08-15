@@ -20,23 +20,19 @@ class TrackerSpiderSpider(scrapy.Spider):
         for i in range(len(product_title)):
             try:
                 items['product_title'] = product_title[i].strip()
-                print(product_title[i].strip(), 'product_title')
 
                 if product_total_number_rating[i]:
                     items['product_total_number_rating'] = product_total_number_rating[i].strip()
-                    print(product_total_number_rating[i].strip(), 'product_total_number_rating')
 
                 else:
                     items['product_total_number_rating'] = 0
 
                 if product_price[i]:
                     items['product_price'] = product_price[i].strip()
-                    print(product_price[i].strip(), 'product_price')
                 else:
                     items['product_price'] = 0
 
                 items['product_image_link'] = product_image_link[i].strip()
-                print(product_image_link[i].strip(), 'product_image_link')
 
             except IndexError:
                 pass
