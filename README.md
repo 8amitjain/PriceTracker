@@ -1,7 +1,7 @@
 # PriceTracker
 
-To install all python modules required
-pip install -r requirements.txt
+To install all required modules use the below command
+<h2>pip install -r requirements.txt</h2>
 
 Change directory to \tracker\spiders>
 
