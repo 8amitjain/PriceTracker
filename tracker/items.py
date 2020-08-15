@@ -1,14 +1,8 @@
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 
 class TrackerItem(scrapy.Item):
-    # define the fields for your item here like:
-    product_name = scrapy.Field()
-    product_sold_by = scrapy.Field()
+    product_title = scrapy.Field()
+    product_total_number_rating = scrapy.Field()
     product_price = scrapy.Field()
     product_image_link = scrapy.Field()
